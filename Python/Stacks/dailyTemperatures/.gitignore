@@ -22,3 +22,6 @@ logs/
 *target/
 target/
 target
+/.
+/.gitignore
+/main.py
