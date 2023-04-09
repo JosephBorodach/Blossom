@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @Author: Joseph Borodach
  * @Version 1
- * @https://leetcode.com/problems/remove-duplicates-from-sorted-array
+ * @https://leetcode.com/problems/constrained-subsequence-sum
  *
  * Instructions:
  *      Return max sum of a subsequence
@@ -16,12 +16,6 @@ import java.util.*;
  *      Subsequence is obtained by
  *          Deleting some # of elements (can be 0),
  *          leaving remaining elements in their original order
- *
- * Comments:
- *      The wording of this problem is confusing.
- *      Main objective:
- *          Find the subsequence which produces the max sum
- *          Subsequence: Can remove < k indexes between indexes
  *
  * Example:
  *      Input: nums = [10,2,-10,5,20], k = 2
@@ -36,10 +30,6 @@ import java.util.*;
  *      O(n^2), quadratic
  * 2. Use Dynamic Programming
  * 3. Min Queue
- *
- *
- * @time:
- * @space:
  */
 public class ConstrainedSubsequenceSum {
 
@@ -60,7 +50,7 @@ public class ConstrainedSubsequenceSum {
     }
 
     /**
-     * Closer to in place
+     * Queue the actual values in the k size window
      *
      * @time: O(N)
      * @space: O(k)
@@ -94,7 +84,7 @@ public class ConstrainedSubsequenceSum {
     }
 
     /**
-     * Closer to in place
+     * Queue the indexes in the k sized window
      *
      * @time: O(N)
      * @space: O(k)
