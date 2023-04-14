@@ -10,14 +10,17 @@ import java.util.Stack;
  */
 public class TrappingRainWater {
     public int trap(int[] height) {
-        int i = 1;
+        int i = 3;
         if (i == 0) {
             return bruteForce(height);
         }
         if (i == 1) {
             return dynamicProgramming(height);
         }
-        return stack(height);
+        if (i == 2) {
+            return stack(height);
+        }
+        return twoPointers(height);
     }
 
     /**
@@ -80,34 +83,62 @@ public class TrappingRainWater {
     }
 
     /**
-     * stack = {1:1, 3:2, 7:3, 10:2}
-     *        -       -
-     * [0,1,0,2,1,0,1,3,2,1,2, 1] = 6
-     * [0,1,2,3,4,5,6,7,8,9,10,11]
-     *      {10, 7}: 1
-     *      {7, 3}: 4
-     *      {3, 1} 1
-     *
      *
      * @param height
      * @return
      */
     private int stack(int[] height) {
-        int i = 0;
         int ans = 0;
         int current = 0;
         int len = height.length;
 
         Stack<Integer> stack = new Stack<>();
         while (current < len) {
-            while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
+            while (!stack.isEmpty() && height[current] > height[stack.peek()]) {
                 int top = stack.pop();
                 if (stack.isEmpty()) {
                     break;
                 }
                 int distance = current - stack.peek() - 1;
-                int bounded_height = Math.min(height[current], height[stack.peek()] - height[top]);
+                int bounded_height = Math.min(height[current], height[stack.peek()]) - height[top];
                 ans += distance * bounded_height;
+            }
+            stack.push(current++);
+        }
+        return ans;
+    }
+
+    /**
+     * @param height
+     * @return
+     *
+     * @time: O(n), linear.
+     * @space: O(1), constant.
+     */
+    private int twoPointers(int[] height) {
+        int ans = 0;
+        int len = height.length;
+
+        int left_max = 0;
+        int right_max = 0;
+
+        int left = 0;
+        int right = len - 1;
+        while (left < right) {
+            if (height[left] < height[right]) {
+                if (height[left] >= left_max) {
+                    left_max = height[left];
+                } else {
+                    ans += left_max - height[left];
+                }
+                left++;
+            } else {
+                if (height[right] >= right_max) {
+                    right_max = height[right];
+                } else {
+                    ans += right_max - height[right];
+                }
+                right--;
             }
         }
         return ans;
