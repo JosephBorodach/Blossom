@@ -1,14 +1,5 @@
 package algo.practice;
 
-/*
-git add .
-
-git commit -m "Completed ShortestUnsortedContinuousSubarray"
-
-git push
- */
-
-
 public class ShortestUnsortedContinuousSubarray {
     /**
      * @time: O(n), linear
