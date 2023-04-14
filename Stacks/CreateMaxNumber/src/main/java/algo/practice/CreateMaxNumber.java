@@ -41,12 +41,6 @@ import java.util.Stack;
  * @time: O((m + n) ^ 3)
  * @space:
  */
-
-git add .
-
-git commit -m "Completed CreateMaxNumber"
-
-git push
 public class CreateMaxNumber {
     /**
      * @param nums1 the first non-negative integer array
