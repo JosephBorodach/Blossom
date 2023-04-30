@@ -10,6 +10,10 @@ Check out my 250 [Leetcode problems](https://github.com/JosephBorodach/Blossom/b
 
 I have also compiled a [Coding Challenges Playbook](https://github.com/JosephBorodach/Blossom/blob/main/Coding.Challenges.Playbook.pdf) that contains helpful tips and strategies for solving coding challenges.
 
+## Coding Challenges Playbook
+
+I have also compiled a [Coding Challenges Cheat Sheet](https://github.com/JosephBorodach/Blossom/blob/main/Coding%20Challenge%20Cheat%20Sheet.pdf) that contains fundemental algorithms, data structures, and Java & Python syntax.
+
 ## Contributing
 
 If you would like to contribute to Blossom, feel free to [upload your own resources and challenges](https://github.com/JosephBorodach/Blossom/upload) to the repository.
