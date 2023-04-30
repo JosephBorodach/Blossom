@@ -1,4 +1,5 @@
 # Blossom
+https://github.com/JosephBorodach/Blossom/blob/main/Leetcodes.pdf 
 [Leetcodes.pdf](https://github.com/JosephBorodach/Blossom/files/11362559/Leetcodes.pdf)
 ---
 [Coding Challenges Playbook.pdf](https://github.com/JosephBorodach/Blossom/files/11362569/Coding.Challenges.Playbook.pdf)
