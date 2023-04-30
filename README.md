@@ -4,7 +4,7 @@ Welcome to Blossom, a repository where I share my coding journey and progress! H
 
 ## Leetcode Problems
 
-Check out my [Leetcode problems](https://github.com/JosephBorodach/Blossom/blob/main/Leetcodes.pdf) where I have documented my solutions to various coding problems.
+Check out my 250 [Leetcode problems](https://github.com/JosephBorodach/Blossom/blob/main/Leetcodes.pdf) where I have documented numerous problems I think I particular helpful for preparing for interviews.
 
 ## Coding Challenges Playbook
 
