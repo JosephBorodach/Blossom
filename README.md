@@ -1,2 +1,2 @@
 # Blossom
-<iframe src="https://github.com/JosephBorodach/Blossom/blob/main/LeetcodeProblems.html"></iframe>
+<iframe src="https://josephborodach.github.io/Blossom/LeetcodeProblems.html" width="100%" height="500px"></iframe>
