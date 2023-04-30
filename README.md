@@ -2,13 +2,13 @@
 
 Welcome to Blossom, a repository where I share my coding journey and progress! Here you can find some of my coding challenges and resources that I have used to learn coding.
 
-## Leetcode Problems
-
-Check out my 250 [Leetcode problems](https://github.com/JosephBorodach/Blossom/blob/main/Leetcodes.pdf) where I have documented numerous problems I think I particular helpful for preparing for interviews.
-
 ## Coding Challenges Playbook
 
 I have also compiled a [Coding Challenges Playbook](https://github.com/JosephBorodach/Blossom/blob/main/Coding.Challenges.Playbook.pdf) that contains helpful tips and strategies for solving coding challenges.
+
+## Leetcode Problems
+
+Check out my 250 [Leetcode problems](https://github.com/JosephBorodach/Blossom/blob/main/Leetcodes.pdf) where I have documented numerous problems I think I particular helpful for preparing for interviews.
 
 ## Coding Challenges Playbook
 
