@@ -1,12 +1,20 @@
 # Blossom
-https://github.com/JosephBorodach/Blossom/blob/main/Leetcodes.pdf 
 
-[Leetcodes.pdf](https://github.com/JosephBorodach/Blossom/files/11362559/Leetcodes.pdf)
----
-[Coding Challenges Playbook.pdf](https://github.com/JosephBorodach/Blossom/files/11362569/Coding.Challenges.Playbook.pdf)
----
-[Coding Challenge Cheat Sheet.pdf](https://github.com/JosephBorodach/Blossom/files/11362576/Coding.Challenge.Cheat.Sheet.pdf)
----
+Welcome to Blossom, a repository where I share my coding journey and progress! Here you can find some of my coding challenges and resources that I have used to learn coding.
+
+## Leetcode Problems
+
+Check out my [Leetcode problems](https://github.com/JosephBorodach/Blossom/blob/main/Leetcodes.pdf) where I have documented my solutions to various coding problems.
+
+## Coding Challenges Playbook
+
+I have also compiled a [Coding Challenges Playbook](https://github.com/JosephBorodach/Blossom/blob/main/Coding.Challenges.Playbook.pdf) that contains helpful tips and strategies for solving coding challenges.
+
+## Contributing
+
+If you would like to contribute to Blossom, feel free to [upload your own resources and challenges](https://github.com/JosephBorodach/Blossom/upload) to the repository.
+
+Thank you for visiting Blossom! I hope you find these resources helpful in your coding journey.
 
 ![Leetcodes-1](https://user-images.githubusercontent.com/95253429/235379326-91101c6a-d187-49e8-b2c0-47ba8d3a7cd4.jpg)
 ![Leetcodes-2](https://user-images.githubusercontent.com/95253429/235379327-c1834404-6af2-419c-a6b2-2b718260143d.jpg)
